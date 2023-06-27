@@ -1,0 +1,97 @@
+.body {
+	margin: 0;
+}
+
+.header {
+	height: 100px;
+	width: 100%;
+	background-color: gray;
+	display: inline-block;
+}
+
+@media screen and (max-width: 820px) {
+
+	.header {
+		height: auto;
+	}
+
+	header nav {
+		height: auto;
+		width: auto;
+		display: block;
+	}
+}
+
+.container_logo {
+	height: 80px;
+	width: 158px;
+	margin-top: 5px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.container_social {
+	height: 100px;
+	width: auto;
+	margin-top: 12px;
+	display: block;
+	float: right;
+}
+
+.icon {
+	display: inline-block;
+	margin-right: 2px;
+	text-align: center;
+}
+
+.phone {
+	display: inline-block;
+	margin-right: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: rgb(231, 231, 231);
+	text-decoration: none;
+}
+
+.container_button {
+	width: 240px;
+	display: inline-block;
+}
+
+.button {
+	height: 35px;
+	width: 185px;
+	background-color: #FFA704;
+	border: 1px solid #FFA704;
+	border-radius: 25px;
+	margin: 20px;
+	color: white;
+}
+
+.courses {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	color: #FFA704;
+	text-align: center;
+	margin-top: 130px;
+}
+
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 25px;
+	color: rgb(54, 54, 54);
+}
+
+.conteiner_buttons {
+	height: 50px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.container_buttons2 {
+	width: 240px;
+	display: inline-block;
+}
